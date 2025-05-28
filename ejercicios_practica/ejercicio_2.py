@@ -40,14 +40,10 @@ if __name__ == '__main__':
 
     len_string = lambda x: len(x)
    
-    print(len_string('jesus gonzalez')) 
-
     # Desarrollo de 2) ***************************
 
     palabras_len = map(len_string, palabras)
     palabras_len = list(palabras_len)
-
-    print(palabras_len)
     
     palabras_len = list(map(lambda x: len(x), palabras))
 
