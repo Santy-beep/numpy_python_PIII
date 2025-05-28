@@ -40,9 +40,7 @@ if __name__ == '__main__':
     # Desarrollo de 1) ***************************
     
     potencia_2 = lambda x: x**2
-    pot_3 = potencia_2(3)
-
-    print('El número 3 elevado al cuadrado es:',pot_3)
+    print('El número elevado al cuadrado es:', potencia_2)
 
     # Desarrollo de 2) ***************************
 
