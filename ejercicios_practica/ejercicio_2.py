@@ -42,9 +42,6 @@ if __name__ == '__main__':
    
     # Desarrollo de 2) ***************************
 
-    palabras_len = map(len_string, palabras)
-    palabras_len = list(palabras_len)
-    
     palabras_len = list(map(lambda x: len(x), palabras))
 
     print(palabras_len)
